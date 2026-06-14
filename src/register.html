@@ -17,13 +17,19 @@
                 <h2 class="text-3xl  mb-6 ">Register</h2>
                 <form class="flex flex-col gap-2 w-full max-w-sm mt-2">
                     <div class="flex flex-col gap-1.5">
+                        <input type="text" id="user_name" placeholder="user name" class="relative py-3 px-4 rounded-full  border border-gray-800 focus:outline-none focus:border-orange-500 transition-colors">
+                    </div>
+                    <div class="flex flex-col gap-1.5">
                        
-                        <input type="email" id="email" class="relative py-3 px-4 rounded-full  border border-gray-800 focus:outline-none focus:border-orange-500 transition-colors">
+                        <input type="email" id="email" placeholder="Email" class="relative py-3 px-4 rounded-full  border border-gray-800 focus:outline-none focus:border-orange-500 transition-colors">
+                    </div>
+                    <div class="flex flex-col gap-1.5 relative mt-2">
+                        <input type="password" id="password" placeholder="Password" class="relative py-3 px-4 rounded-full  border border-gray-300 focus:outline-none focus:border-orange-500 transition-colors">
+                        <i class="fa-regular fa-eye-slash absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 cursor-pointer"></i>          
                     </div>
                     
-                    
 
-                    <input type="submit" value="Register" id="Sign_in" class="rounded-full bg-[#FF6F43] text-white font-bold py-3.5 mt-6 cursor-pointer">
+                    <input type="submit" value="Register" id="Sign_up" class="rounded-full bg-[#FF6F43] text-white font-bold py-3.5 mt-6 cursor-pointer">
                     <p class="ml-8 mt-4 ">Already have an account? <a href="register.html" class="text-blue-600 font-semibold hover:underline" >Login</a></p>
                 </form>
             </div>
@@ -33,5 +39,7 @@
             </div>
         </div>
     </section>
+
+    <script src="Js/register.js"></script>
 </body>
 </html>
