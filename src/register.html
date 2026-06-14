@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.css">
+     <link rel="stylesheet" href="./css/style.css">
+    <title>Alex Zoo | Register</title>
+</head>
+<body>
+    <section class="h-screen ">
+        <div class=" grid grid-cols-1 md:grid-cols-3 h-full w-full">
+            <!-- register form -->
+            <div class="col-span-1  flex flex-col justify-center items-center md:px-12 md:px-14 p-8 h-full">
+                <div id="logo_login"><img src="./images/logo.png" alt="Alex zoo" class=" w-auto h-[120px] -mt-8 " ></div>
+                <h2 class="text-3xl  mb-6 ">Register</h2>
+                <form class="flex flex-col gap-2 w-full max-w-sm mt-2">
+                    <div class="flex flex-col gap-1.5">
+                       
+                        <input type="email" id="email" class="relative py-3 px-4 rounded-full  border border-gray-800 focus:outline-none focus:border-orange-500 transition-colors">
+                    </div>
+                    
+                    
+
+                    <input type="submit" value="Register" id="Sign_in" class="rounded-full bg-[#FF6F43] text-white font-bold py-3.5 mt-6 cursor-pointer">
+                    <p class="ml-8 mt-4 ">Already have an account? <a href="register.html" class="text-blue-600 font-semibold hover:underline" >Login</a></p>
+                </form>
+            </div>
+            <!-- image login -->
+            <div class=" hidden md:block md:col-span-2 overflow-hidden h-full w-full">
+                <img src="images/login.png"  class="w-full h-full object-cover" >
+            </div>
+        </div>
+    </section>
+</body>
+</html>

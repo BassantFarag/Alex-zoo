@@ -1,0 +1,17 @@
+.intro_container{
+    height: 100vh;
+    background-image: url("../images/intro.png");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 30px;
+     
+}
+.first_intro{
+    background-image: url(../images/first_intro.jpg);
+    background-size: cover;
+    height: 80%;
+}
+.dog_intro{
+    height: 100px;
+}

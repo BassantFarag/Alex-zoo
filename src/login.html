@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.css">
+     <link rel="stylesheet" href="./css/style.css">
+    <title>Alex Zoo | Login</title>
+</head>
+<body>
+    <section class="h-screen ">
+        <div class=" grid grid-cols-1 md:grid-cols-3 h-full w-full">
+            <!-- login form -->
+            <div class="col-span-1  flex flex-col justify-center items-center md:px-12 md:px-14 p-8 h-full">
+                <div id="logo_login"><img src="./images/logo.png" alt="Alex zoo" class=" w-auto h-[120px] -mt-8 " ></div>
+                <h2 class="text-2xl font-bold text-gray-600 mb-6 ">Login</h2>
+                <form class="flex flex-col gap-2 w-full max-w-sm mt-2">
+                    <div class="flex flex-col gap-1.5">
+                        <label for="email" class="font-semibold text-md">Email Address</label>
+                        <input type="email" id="email" class="relative py-3 px-4 rounded-full  border border-gray-300 focus:outline-none focus:border-orange-500 transition-colors">
+                    </div>
+                    <div class="flex flex-col gap-1.5 relative mt-2">
+                        <label for="password" class="font-semibold text-md">Password</label>
+                        <input type="password" id="password" placeholder="Password" class="relative py-3 px-4 rounded-full  border border-gray-300 focus:outline-none focus:border-orange-500 transition-colors">
+                        <i class="fa-regular fa-eye-slash absolute right-4 top-12 text-gray-400 cursor-pointer"></i>
+                    </div>
+
+                    <input type="submit" value="Sign in" id="Sign_in" class="rounded-full bg-[#FF6F43] text-white font-bold py-3.5 mt-6 cursor-pointer">
+                    <p class="ml-8 mt-4 ">Don't have an account? <a href="register.html" class="text-blue-600 font-semibold hover:underline" >Register</a></p>
+                </form>
+            </div>
+            <!-- image login -->
+            <div class=" hidden md:block md:col-span-2 overflow-hidden h-full w-full">
+                <img src="images/login.png"  class="w-full h-full object-cover" >
+            </div>
+        </div>
+    </section>
+</body>
+</html>
