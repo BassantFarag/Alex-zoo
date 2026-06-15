@@ -40,29 +40,27 @@
     <main>
         <div class="w-full py-14">
             <div class="container w-[94%] mx-auto  ">
-                <img src="./images/home.jpg" alt="" class="rounded-xl w-full object-cover ">
+                <img src="./images/hero.png" alt="" class="rounded-xl w-full object-cover ">
             </div>
         </div>
     </main>
-    <section class="w-full max-w-7xl  ">
-        <div class="w-full px-6 md:px-8">
-            <div class="intro_container w-full grid grid-cols-3 gap-8 ">
-                <div class="first_intro bg-red-200 col-span-3 md:grid-span-2 rounded-[2rem] flex">
-                    <div class="">
-                        
-                        <h2>Don't miss our offers</h2>
-                        <p>Buy More,Pay less</p>
-                        <button>Order Now</button>
-                    </div>
-                    <div class="dog_intro">
-                        <img src="./images/Dog_offer.png" alt="">
-                    </div>
-                </div>
-
-                <div class="second_intro bg-blue-200 col-span-3 md:col-span-1">
-                    <!-- <img src="./images/new-arrivals.c10db757.webp" class="w-full h-full  object-cover"> -->
-                </div>
-          </div>
+    <section class="offer_section w-full  md:min-h-screen bg-[url('../images/intro.png')] bg-cover p-8 flex items-center justify-center">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 w-full ">
+            <div class="flex gap-5 px-4 md:col-span-2 w-full bg-[url('../images/first_intro.jpg')] h-[400px] rounded-3xl object-cover shadow-xl">
+               <div class=" w-[380px] mt-12 pl-8  text-white ">
+                <p class="text-3xl font-bold">Don't miss our offers</p>
+                <p class="text-3xl mt-2 mb-6 font-bold">Buy more, pay less</p>
+                <button class=" cursor-pointer bg-blue-950 py-2 px-6 rounded-full text-xl"><a href="offers.html">Order Now</a></button>
+              </div>
+              <div class=" h-[440px]  -mt-6">
+                  <img src="images/Dog_offer.png" alt="Offers" class=" hidden md:block object-cover h-full  ">
+              </div>
+              
+            </div>
+            <div class="h-[400px]  md:col-span-1 w-full pt-6 pl-8 bg-[url('../images/new-arrivals.c10db757.webp')] w-full  rounded-3xl object-cover shadow-xl text-white">
+                <p class="text-3xl font-bold mb-4 ">New Arrivals</p>
+                <button class="cursor-pointer bg-blue-950 py-1 px-8 rounded-full text-xl">Shop Now</button>
+            </div>
         </div>
     </section>
     <script src="Js/index.js"></script>
